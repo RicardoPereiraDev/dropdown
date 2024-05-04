@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Descrição do projecto:
+
+        Vou criar uma barra de navegação padrão de website, onde geralmente tem aquela pagina inicio/home, sobre, contactos, serviços e dentro
+        do item serviços vou criar uma sublista, ou seja, um dropdown menu contendo os serviços disponibilizados nesse website.
+    -->
+    <nav>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+                <li class="dropdown">
+                    <a href="">Services</a>
+
+                    <div class="dropdown-menu">
+                        <a href="">Service of Telecomunications</a>
+                        <a href="">Service of Informations</a>
+                        <a href="">Web Services</a>
+                    </div>
+                </li>
+            <li>
+                <a href="">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
